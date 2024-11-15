@@ -1,0 +1,22 @@
+{
+  "name": "secured-backend",
+  "version": "1.0.0",
+  "description": "Secured Node.js Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.1.0",
+    "express-validator": "^6.14.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "validator": "^13.6.0"
+  }
+}

@@ -27,11 +27,11 @@ const limiter = rateLimit({
 
 // אפשרויות CORS
 const corsOptions = {
-  origin: ['http://client1.com', 'http://client2.com'], // עדכן לפי הצורך
+  origin: ['origin: [http://localhost:3009'], // עדכן לפי הצורך
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(limiter);
 
